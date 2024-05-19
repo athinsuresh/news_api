@@ -45,13 +45,12 @@ news-art/
 - News.jsx component fetches and displays news articles based on the selected category. It uses useState to manage articles, errors, and loading states, and useEffect to fetch news from the NewsAPI when the category changes. Articles are displayed in a responsive grid layout, with a styled heading that includes a bottom border for visual emphasis.
 - The NewsCard.jsx component displays individual news articles with a title, description, image, and a link to read more. It features a hover effect that changes the card's background to white, text color to black, and adds a border. The hover effect also includes a smooth transition.
 - The Navbar.jsx component renders a responsive navigation bar with various categories (Technology, Business, Health, Sports, Science, Entertainment). When a category link is clicked, it calls the setCategory function passed as a prop to update the current news category. The navbar uses Bootstrap classes for styling and responsiveness.
-- 'assets' folder contains the necessary files.
+- 'assets' folder contains the necessary images.
 - .env file contains the API key.
 
 ## Running
 - Clone the repository:
-   git clone https://github.com/yourusername/news-art.git
-   cd news-art
+   https://github.com/athinsuresh/news_api
 - Install dependencies:
   npm install
 - Set up your News API key:
