@@ -43,8 +43,8 @@ news-art/
 ## Important Files
 - App.jsx component sets up a responsive news application that changes its background image based on the selected news category. It uses a useState hook to manage the current category and switches the background image accordingly. It includes a Navbar for selecting categories and a News component to display news articles.
 - News.jsx component fetches and displays news articles based on the selected category. It uses useState to manage articles, errors, and loading states, and useEffect to fetch news from the NewsAPI when the category changes. Articles are displayed in a responsive grid layout, with a styled heading that includes a bottom border for visual emphasis.
-- The NewsCard component displays individual news articles with a title, description, image, and a link to read more. It features a hover effect that changes the card's background to white, text color to black, and adds a border. The hover effect also includes a smooth transition.
-- The Navbar component renders a responsive navigation bar with various categories (Technology, Business, Health, Sports, Science, Entertainment). When a category link is clicked, it calls the setCategory function passed as a prop to update the current news category. The navbar uses Bootstrap classes for styling and responsiveness.
+- The NewsCard.jsx component displays individual news articles with a title, description, image, and a link to read more. It features a hover effect that changes the card's background to white, text color to black, and adds a border. The hover effect also includes a smooth transition.
+- The Navbar.jsx component renders a responsive navigation bar with various categories (Technology, Business, Health, Sports, Science, Entertainment). When a category link is clicked, it calls the setCategory function passed as a prop to update the current news category. The navbar uses Bootstrap classes for styling and responsiveness.
 - 'assets' folder contains the necessary files.
 - .env file contains the API key.
 
